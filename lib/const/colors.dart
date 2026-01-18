@@ -36,6 +36,8 @@ class AppColors {
 
   static Color errorText() => isDarkMode ? errorTextColor : Colors.redAccent;
 
+  static Color orangeHighlight = const Color(0xffF6844E).withOpacity(0.2);
+
   static Color errorTextField() => colorFF0000;
 
   static Color errorTextHistory() =>
@@ -364,6 +366,7 @@ class AppColors {
       isDarkMode ? grayDark1 : primaryLight2;
   static Color get snackbarTextColor => isDarkMode ? grayDark6 : grayLight2;
   static Color get snackbarBgColor => isDarkMode ? grayDark1 : grayLight7;
+  static const Color mainColors = Color.fromRGBO(242, 103, 36, 1);
 
   // Figma light colors
   static const primaryLight2 = Color(0xFFF24E1E);
@@ -554,5 +557,10 @@ class AppColors {
   static const List<Color> colorGradientIconHome = [
     Color(0xFFfd754a),
     Color(0xFFfd8058),
+  ];
+
+  static const List<Color> colorHeadPayroll = [
+    Color(0xffF6921E),
+    Color(0xffF15922),
   ];
 }
